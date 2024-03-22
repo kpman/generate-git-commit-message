@@ -1,0 +1,16 @@
+{
+  "name": "generate-git-commit-message",
+  "version": "1.0.0",
+  "type": "module",
+  "bin": {
+    "ggcm": "./generate-git-commit-message.js",
+    "generate-git-commit-message": "./generate-git-commit-message.js"
+  },
+  "dependencies": {
+    "clipboardy": "^4.0.0",
+    "node-fetch": "^3.3.2"
+  },
+  "scripts": {
+    "start": "node generate-git-commit-message.js"
+  }
+}
