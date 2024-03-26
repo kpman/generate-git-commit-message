@@ -1,23 +1,24 @@
 Here are my code changes:
 {clipboard}
 
-Please generate one conventional git commit message with the following structure:
-"""
+Please use the content enclosed within the following three backticks as context to generate a conventional git commit message:
+```
 <type>(<site>/<optional scope>): <description>
 
 <optional body>
-"""
+```
 
 <site> variable comes from file paths like sites/xxx/ooo, where xxx is the site variable to replace
 commit message.
 The optional body should be less than 3 bullet points.
 The optional body should has one empty line after commit message header.
 The commit message header should less than 70 characters.
+The commit message should not include the three backticks.
 
 For example:
-===
+
 chore(zoo/locale): add expense component locale
 - Implement search by issue identifiers, issue titles, or usernames in notifications
 - Remove console.log from getNotificationTitle function
 - Enhance notification item display with additional keywords for search
-===
+
